@@ -5,7 +5,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{YOUR-GUID-HERE}}
+AppId=A7F27B2C-242C-47BC-B3BA-5E5EA564DDAF
 AppName=Recycle Bin Manager
 AppVersion=1.0
 DefaultDirName={pf}\Recycle Bin Manager
@@ -21,7 +21,7 @@ SolidCompression=yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "build\exe.win32-3.9\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "build\exe.win-amd64-3.11\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\Recycle Bin Manager"; Filename: "{app}\main.exe"
