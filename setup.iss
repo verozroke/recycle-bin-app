@@ -24,8 +24,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Source: "build\exe.win-amd64-3.11\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{group}\Recycle Bin Manager"; Filename: "{app}\main.exe"
+Name: "{group}\Recycle Bin Manager"; Filename: "{app}\RecycleBinManager.exe"
 Name: "{group}\Uninstall Recycle Bin Manager"; Filename: "{uninstallexe}"
 
 [Run]
-Filename: "{app}\main.exe"; Description: "{cm:LaunchProgram,Recycle Bin Manager}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\RecycleBinManager.exe"; Description: "{cm:LaunchProgram,Recycle Bin Manager}"; Flags: nowait postinstall skipifsilent
